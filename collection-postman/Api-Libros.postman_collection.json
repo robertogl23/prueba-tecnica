@@ -1,0 +1,302 @@
+{
+	"info": {
+		"_postman_id": "9dd898d3-b7c2-418b-9010-50dfd55dc3e0",
+		"name": "Api-Libros",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Crear Libro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Autor\": \"Roberto Galicia\",\r\n    \"TituloLibro\": \"Libro Test2\",\r\n    \"FechaPublicacion\": \"2022-03-09\",\r\n    \"Editorial\" :\"Editorial Test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44320/api/libros/create-libro",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"libros",
+						"create-libro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Libro Produccion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Autor\": \"Carlosss\",\r\n    \"TituloLibro\": \"holaddd\",\r\n    \"FechaPublicacion\": \"2022-09-03\",\r\n    \"Editorial\" :\"hola\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/prueba/api/libros/create-libro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"prueba",
+						"api",
+						"libros",
+						"create-libro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener libros por autor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44320/api/libros/get-by-autor/?autor=Valentine Penrose",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"libros",
+						"get-by-autor",
+						""
+					],
+					"query": [
+						{
+							"key": "autor",
+							"value": "Valentine Penrose"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener libros por autor produccion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/prueba/api/libros/get-by-autor/?autor=Roberto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"prueba",
+						"api",
+						"libros",
+						"get-by-autor",
+						""
+					],
+					"query": [
+						{
+							"key": "autor",
+							"value": "Roberto"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener libros por titulo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44320/api/libros/get-by-title/?titulo=La condesa sangrienta",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"libros",
+						"get-by-title",
+						""
+					],
+					"query": [
+						{
+							"key": "titulo",
+							"value": "La condesa sangrienta"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener libros por fecha publicacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44320/api/libros/get-by-publication-date/?fecha=2022/03/09",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"libros",
+						"get-by-publication-date",
+						""
+					],
+					"query": [
+						{
+							"key": "fecha",
+							"value": "2022/03/09"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener libros por editorial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44320/api/libros/get-by-editorial/?editorial=Perla Ediciones",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"libros",
+						"get-by-editorial",
+						""
+					],
+					"query": [
+						{
+							"key": "editorial",
+							"value": "Perla Ediciones"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener libros por autor y fecha publicacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44320/api/libros/get-by-autor-and-publication-date/?autor=Valentine Penrose&fecha=2022/03/09",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"libros",
+						"get-by-autor-and-publication-date",
+						""
+					],
+					"query": [
+						{
+							"key": "autor",
+							"value": "Valentine Penrose"
+						},
+						{
+							"key": "fecha",
+							"value": "2022/03/09"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar libros por autor",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44320/api/libros/delete-by-autor/?autor=Roberto Galicia",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"libros",
+						"delete-by-autor",
+						""
+					],
+					"query": [
+						{
+							"key": "autor",
+							"value": "Roberto Galicia"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar libros por editorial",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44320/api/libros/delete-by-editorial/?editorial=Editorial Test",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"libros",
+						"delete-by-editorial",
+						""
+					],
+					"query": [
+						{
+							"key": "editorial",
+							"value": "Editorial Test"
+						},
+						{
+							"key": "fecha",
+							"value": "09/03/2022",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

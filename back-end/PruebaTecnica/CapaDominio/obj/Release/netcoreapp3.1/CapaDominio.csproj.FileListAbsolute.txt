@@ -1,0 +1,12 @@
+E:\.net\PruebaTecnica\CapaDominio\bin\Release\netcoreapp3.1\CapaDominio.deps.json
+E:\.net\PruebaTecnica\CapaDominio\bin\Release\netcoreapp3.1\CapaDominio.dll
+E:\.net\PruebaTecnica\CapaDominio\bin\Release\netcoreapp3.1\CapaDominio.pdb
+E:\.net\PruebaTecnica\CapaDominio\bin\Release\netcoreapp3.1\CapaDatos.dll
+E:\.net\PruebaTecnica\CapaDominio\bin\Release\netcoreapp3.1\CapaDatos.pdb
+E:\.net\PruebaTecnica\CapaDominio\obj\Release\netcoreapp3.1\CapaDominio.csprojAssemblyReference.cache
+E:\.net\PruebaTecnica\CapaDominio\obj\Release\netcoreapp3.1\CapaDominio.AssemblyInfoInputs.cache
+E:\.net\PruebaTecnica\CapaDominio\obj\Release\netcoreapp3.1\CapaDominio.AssemblyInfo.cs
+E:\.net\PruebaTecnica\CapaDominio\obj\Release\netcoreapp3.1\CapaDominio.csproj.CoreCompileInputs.cache
+E:\.net\PruebaTecnica\CapaDominio\obj\Release\netcoreapp3.1\CapaDominio.csproj.CopyComplete
+E:\.net\PruebaTecnica\CapaDominio\obj\Release\netcoreapp3.1\CapaDominio.dll
+E:\.net\PruebaTecnica\CapaDominio\obj\Release\netcoreapp3.1\CapaDominio.pdb

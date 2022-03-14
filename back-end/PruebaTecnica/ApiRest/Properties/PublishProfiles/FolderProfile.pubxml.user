@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\roberto\Desktop\publicaciones\prueba</_PublishTargetUrl>
+    <History>True|2022-03-14T04:15:40.4504130Z;True|2022-03-12T02:38:43.0121312-06:00;True|2022-03-12T02:31:18.1012217-06:00;False|2022-03-12T02:30:15.6451568-06:00;True|2022-03-11T02:54:48.9742968-06:00;True|2022-03-11T02:52:03.6725796-06:00;True|2022-03-11T02:49:50.9024944-06:00;True|2022-03-11T01:33:00.3678092-06:00;</History>
+  </PropertyGroup>
+</Project>
