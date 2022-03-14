@@ -32,5 +32,7 @@
   npm run dev
 ```
 ### Nota
-los end-ponits api que se usan en react, son los de produccion en el IIS.
+- los end-ponits api que se usan en react, son los de produccion en el IIS.
+- El codigo del react queda por mejorarlo 😥
+
 
